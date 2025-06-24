@@ -1,13 +1,10 @@
-# FideOS nix flake for consistent and reproducible development environments
-# Provides necessary tools and libraries for building, debugging, and testing the OS
-# Supports both x86_64 and ARM64 architectures for cross-platform development
-# Uses rust-overlay to provide up-to-date Rust toolchains with rust-analyzer and sources
-# Includes common development utilities, build tools, networking and version control software
-# Ensures environment variables are set for a smooth terminal and editor experience
-# To enter the FideOS development environment, run:
+# FideOS nix flake for reproducible and consistent development environments
+# Provides necessary tools and language servers for developing FideOS
+# Supports x86_64 and aarch64 CPU architectures
+# To enter the development environment, run:
 #   nix develop
-# This command will open an isolated shell with all specified tools and dependencies available.
-# You can start coding, building, and testing your project immediately within this environment.
+# This will launch an isolated shell with all specified tools ready for
+# coding, building, and testing FideOS.
 
 
 
