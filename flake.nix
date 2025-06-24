@@ -34,7 +34,6 @@
               cmake
               ninja
               gnumake
-              bashInteractive
               python3
               python3Packages.python-lsp-server
               git
